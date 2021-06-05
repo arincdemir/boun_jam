@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetInt("LastScore", 0);
         LoadNewEncounter();
     }
 
@@ -26,6 +28,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         UpdateIndicators();
+        if(playerDatas.para <= 0) { SceneManager.LoadScene("ParaEnd"); }
+        else if (playerDatas.çıkar <= 0) { SceneManager.LoadScene("ÇıkarEnd"); }
+        else if (playerDatas.korku <= 0) { SceneManager.LoadScene("KorkuEnd"); }
+        else if (playerDatas.asker <= 0) { SceneManager.LoadScene("AskerEnd"); }
     }
 
     void UpdateIndicators()
@@ -38,6 +44,7 @@ public class GameManager : MonoBehaviour
 
     void LoadNewEncounter()
     {
+        PlayerPrefs.SetInt("LastScore", PlayerPrefs.GetInt("LastScore") + 1);
         int encounterIndex = Mathf.RoundToInt(Random.Range(-0.5f, encounters.Length - 0.5f));
         currentEncounter = encounters[encounterIndex];
         advisorImage.sprite = currentEncounter.image;

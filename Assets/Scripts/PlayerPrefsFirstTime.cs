@@ -7,7 +7,7 @@ public class PlayerPrefsFirstTime : MonoBehaviour
     public float defaultMusicVolume;
     public float defaultSoundVolume;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         if (!PlayerPrefs.HasKey("MusicVolume"))
         {
@@ -17,6 +17,15 @@ public class PlayerPrefsFirstTime : MonoBehaviour
         {
             PlayerPrefs.SetFloat("SoundVolume", defaultSoundVolume);
         }
+        if (!PlayerPrefs.HasKey("LastScore"))
+        {
+            PlayerPrefs.SetInt("LastScore", 0);
+        }
+        if (!PlayerPrefs.HasKey("HighScore"))
+        {
+            PlayerPrefs.SetInt("HighScore", 0);
+        }
+
     }
 
     
