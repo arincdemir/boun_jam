@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
     public Image advisorImage;
     public Text encounterText;
     public PlayerDatas playerDatas;
+    public Text paraTexti;
+    public Text çıkarTexti;
+    public Text korkuTexti;
+    public Text askerTexti;
 
     public Encounter[] encounters;
     Encounter currentEncounter;
@@ -21,7 +25,15 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateIndicators();
+    }
+
+    void UpdateIndicators()
+    {
+        paraTexti.text = "PARA" + "\n" + playerDatas.para;
+        çıkarTexti.text = "ÇKAR" + "\n" + playerDatas.çıkar;
+        korkuTexti.text = "KORKU" + "\n" + playerDatas.korku;
+        askerTexti.text = "ASKER" + "\n" + playerDatas.asker;
     }
 
     void LoadNewEncounter()
