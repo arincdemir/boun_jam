@@ -21,7 +21,6 @@ public static class SaveLoadTool
     {
         if (File.Exists(path))
         {
-            Debug.Log("hey");
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(path, FileMode.Open);
             PlayerDatas playerDatas = formatter.Deserialize(stream) as PlayerDatas;

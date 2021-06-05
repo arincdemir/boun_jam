@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
         if(PlayerPrefs.GetString("PlayType") == "Devam")
         {
             playerDatas = SaveLoadTool.Load();
-            print("hey");
         }
         PlayerPrefs.SetInt("LastScore", 0);
         LoadNewEncounter();
