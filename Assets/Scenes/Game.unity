@@ -407,6 +407,7 @@ MonoBehaviour:
   askerTexti: {fileID: 288832719}
   encounters:
   - {fileID: 11400000, guid: 77b1163c90a24d14f8f2feba9bf23583, type: 2}
+  - {fileID: 11400000, guid: ae6b7e7595cbaa944828b08c6bebf58d, type: 2}
 --- !u!4 &709634271
 Transform:
   m_ObjectHideFlags: 0

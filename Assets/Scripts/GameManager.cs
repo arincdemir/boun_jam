@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
     void LoadNewEncounter()
     {
         int encounterIndex = Mathf.RoundToInt(Random.Range(-0.5f, encounters.Length - 0.5f));
-        print(encounterIndex);
         currentEncounter = encounters[encounterIndex];
         advisorImage.sprite = currentEncounter.image;
         encounterText.text = currentEncounter.text;
