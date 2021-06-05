@@ -13,7 +13,6 @@ public class GameManager : MonoBehaviour
     public Text çıkarTexti;
     public Text korkuTexti;
     public Text askerTexti;
-    public Text gunTexti;
 
     public Encounter[] encounters;
     Encounter currentEncounter;
@@ -21,6 +20,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetInt("LastScore", 0);
         LoadNewEncounter();
     }
 
@@ -28,23 +28,23 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         UpdateIndicators();
-        if(playerDatas.para <= 0 || playerDatas.korku <= 0 || playerDatas.çıkar <= 0 || playerDatas.asker <= 0)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
+        if(playerDatas.para <= 0) { SceneManager.LoadScene("ParaEnd"); }
+        else if (playerDatas.çıkar <= 0) { SceneManager.LoadScene("ÇıkarEnd"); }
+        else if (playerDatas.korku <= 0) { SceneManager.LoadScene("KorkuEnd"); }
+        else if (playerDatas.asker <= 0) { SceneManager.LoadScene("AskerEnd"); }
     }
 
     void UpdateIndicators()
     {
         paraTexti.text = "PARA" + "\n" + playerDatas.para;
-        çıkarTexti.text = "ÇIKAR" + "\n" + playerDatas.çıkar;
+        çıkarTexti.text = "ÇKAR" + "\n" + playerDatas.çıkar;
         korkuTexti.text = "KORKU" + "\n" + playerDatas.korku;
         askerTexti.text = "ASKER" + "\n" + playerDatas.asker;
-        gunTexti.text = "GÜN" + "\n" + playerDatas.day;
     }
 
     void LoadNewEncounter()
     {
+        PlayerPrefs.SetInt("LastScore", PlayerPrefs.GetInt("LastScore") + 1);
         int encounterIndex = Mathf.RoundToInt(Random.Range(-0.5f, encounters.Length - 0.5f));
         currentEncounter = encounters[encounterIndex];
         advisorImage.sprite = currentEncounter.image;
@@ -58,8 +58,6 @@ public class GameManager : MonoBehaviour
         playerDatas.korku += currentEncounter.korku;
         playerDatas.asker += currentEncounter.asker;
 
-        playerDatas.day += 1;
-
         Save();
         LoadNewEncounter();
     }
@@ -70,8 +68,6 @@ public class GameManager : MonoBehaviour
         playerDatas.çıkar -= currentEncounter.çıkar;
         playerDatas.korku -= currentEncounter.korku;
         playerDatas.asker -= currentEncounter.asker;
-
-        playerDatas.day += 1;
 
         Save();
         LoadNewEncounter();

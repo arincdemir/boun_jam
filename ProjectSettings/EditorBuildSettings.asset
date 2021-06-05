@@ -15,6 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Game.unity
     guid: c291b2f67687f0a458fa7158873047c5
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: faacc8585a100a945aecf56315068b33
+    path: Assets/Scenes/ParaEnd.unity
+    guid: 2978b9aeee19e0d418c7fe7b04fdbcf6
+  - enabled: 1
+    path: "Assets/Scenes/\xC7\u0131karEnd.unity"
+    guid: 8b87e7616b3a4a641af93219e5d34985
+  - enabled: 1
+    path: Assets/Scenes/KorkuEnd.unity
+    guid: 8d4b6166167c4e24197d998e5059ecb5
+  - enabled: 1
+    path: Assets/Scenes/AskerEnd.unity
+    guid: 5c07ce44b35b0d546a6fb1ab21ddcaa7
   m_configObjects: {}
