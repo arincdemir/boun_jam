@@ -38,8 +38,8 @@ public class GameManager : MonoBehaviour
 
     void LoadNewEncounter()
     {
-        // I subtracted 0.5 in order to make all posibilities the same.
-        int encounterIndex = Mathf.RoundToInt(Random.Range(0, encounters.Length) - 0.5f);
+        int encounterIndex = Mathf.RoundToInt(Random.Range(-0.5f, encounters.Length - 0.5f));
+        print(encounterIndex);
         currentEncounter = encounters[encounterIndex];
         advisorImage.sprite = currentEncounter.image;
         encounterText.text = currentEncounter.text;
