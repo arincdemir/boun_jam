@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class GameManager : MonoBehaviour
 {
     public Image advisorImage;
@@ -14,12 +15,18 @@ public class GameManager : MonoBehaviour
     public Text korkuTexti;
     public Text askerTexti;
 
+
     public Encounter[] encounters;
     Encounter currentEncounter;
 
     // Start is called before the first frame update
     void Start()
     {
+        if(PlayerPrefs.GetString("PlayType") == "Devam")
+        {
+            playerDatas = SaveLoadTool.Load();
+            print("hey");
+        }
         PlayerPrefs.SetInt("LastScore", 0);
         LoadNewEncounter();
     }
@@ -32,6 +39,8 @@ public class GameManager : MonoBehaviour
         else if (playerDatas.çıkar <= 0) { SceneManager.LoadScene("ÇıkarEnd"); }
         else if (playerDatas.korku <= 0) { SceneManager.LoadScene("KorkuEnd"); }
         else if (playerDatas.asker <= 0) { SceneManager.LoadScene("AskerEnd"); }
+
+        SaveLoadTool.Save(playerDatas);
     }
 
     void UpdateIndicators()
@@ -58,7 +67,6 @@ public class GameManager : MonoBehaviour
         playerDatas.korku += currentEncounter.korku;
         playerDatas.asker += currentEncounter.asker;
 
-        Save();
         LoadNewEncounter();
     }
 
@@ -69,17 +77,7 @@ public class GameManager : MonoBehaviour
         playerDatas.korku -= currentEncounter.korku;
         playerDatas.asker -= currentEncounter.asker;
 
-        Save();
         LoadNewEncounter();
     }
 
-    void Save()
-    {
-
-    }
-
-    private void Load()
-    {
-        
-    }
 }

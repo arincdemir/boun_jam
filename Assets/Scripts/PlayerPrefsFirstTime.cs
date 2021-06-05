@@ -25,6 +25,10 @@ public class PlayerPrefsFirstTime : MonoBehaviour
         {
             PlayerPrefs.SetInt("HighScore", 0);
         }
+        if (!PlayerPrefs.HasKey("PlayType"))
+        {
+            PlayerPrefs.SetString("PlayType", "Yeni");
+        }
 
     }
 
