@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public Text çıkarTexti;
     public Text korkuTexti;
     public Text askerTexti;
+    public float newEncounterDelay = 1;
 
 
     public Encounter[] encounters;
@@ -66,7 +67,7 @@ public class GameManager : MonoBehaviour
         playerDatas.korku += currentEncounter.korku;
         playerDatas.asker += currentEncounter.asker;
 
-        LoadNewEncounter();
+        Invoke("LoadNewEncounter", newEncounterDelay);
     }
 
     public void ProposalDeclined()
@@ -76,7 +77,7 @@ public class GameManager : MonoBehaviour
         playerDatas.korku -= currentEncounter.korku;
         playerDatas.asker -= currentEncounter.asker;
 
-        LoadNewEncounter();
+        Invoke("LoadNewEncounter", newEncounterDelay);
     }
 
 }
