@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
   m_Name: "Ar\u0131ncEncounter1"
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: fe848484273e7d04b91d908297e67e9c, type: 3}
+  image: {fileID: 21300000, guid: 41f5708113d56c048858ce6f243895d4, type: 3}
   advisorName: "Kanl\u0131 H\xFCseyin"
   text: "Patronum bir grup ayaklanmac\u0131 petrol rezervimize sald\u0131rd\u0131
     ve ele ge\xE7irdi. Geri almak i\xE7in askerlerimizi yola \xE7\u0131karal\u0131m

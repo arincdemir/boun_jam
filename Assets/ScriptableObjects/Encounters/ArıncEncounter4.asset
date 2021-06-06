@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
   m_Name: "Ar\u0131ncEncounter4"
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: 11ec3784dbd18a64ba1bf08029ae24e4, type: 3}
+  image: {fileID: 21300000, guid: 8e2cc2f617addeb439804e9c06393253, type: 3}
   advisorName: "B\xFCy\xFCk Tefeci Recep"
   text: "Reisim... Halk\u0131 madenlerde \xE7al\u0131\u015Ft\u0131r\u0131p g\xFCzel
     para kazanabiliriz. Ne dersiniz?"

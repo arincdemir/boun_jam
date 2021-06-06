@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
   m_Name: "Ar\u0131ncEncounter2"
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: a7fda7da1f0ef84418cdd7451d10c41d, type: 3}
+  image: {fileID: 21300000, guid: df6f321f5f8a275479d13dbfc3878a3f, type: 3}
   advisorName: "Soylular Konseyi Ba\u015Fkan\u0131 K\xFCltigin"
   text: "Ha\u015Fmetmeaplar\u0131... Konsey olarak para s\u0131k\u0131nt\u0131s\u0131
     \xE7ekiyoruz biraz bor\xE7 verseniz olur mu?"
