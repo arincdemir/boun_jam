@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
+  m_Name: "HalkKorkmuyoK\xFCltigin"
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: df6f321f5f8a275479d13dbfc3878a3f, type: 3}
+  advisorName: "TestKi\u015Fisi2"
+  text: Halk sizden yetrince korkmuyor efendim
+  para: 20
+  "\xE7\u0131kar": -10
+  korku: 25
+  asker: 0
+  acceptText: "Tehditlerle dolu Youtube videolar\u0131 yay\u0131nla "
+  declineText: "B\u0131rak korkmas\u0131nlar (manyak g\xFCl\xFC\u015F\xFC)"
