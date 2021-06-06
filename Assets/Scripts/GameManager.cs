@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public Text çıkarTexti;
     public Text korkuTexti;
     public Text askerTexti;
+    public Text gün;
     public float newEncounterDelay = 1;
 
 
@@ -62,6 +63,7 @@ public class GameManager : MonoBehaviour
         encounterText.text = currentEncounter.advisorName+ " \n"+ currentEncounter.text;
         acceptText.text = currentEncounter.acceptText;
         declineText.text = currentEncounter.declineText;
+        gün.text = "GÜN: " + PlayerPrefs.GetInt("LastScore");
     }
 
     public void ProposalAccepted()
