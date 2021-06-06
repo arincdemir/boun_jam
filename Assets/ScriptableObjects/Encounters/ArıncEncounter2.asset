@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
+  m_Name: "Ar\u0131ncEncounter2"
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: a7fda7da1f0ef84418cdd7451d10c41d, type: 3}
+  advisorName: "Soylular Konseyi Ba\u015Fkan\u0131 K\xFCltigin"
+  text: "Ha\u015Fmetmeaplar\u0131... Konsey olarak para s\u0131k\u0131nt\u0131s\u0131
+    \xE7ekiyoruz biraz bor\xE7 verseniz olur mu?"
+  para: -10
+  "\xE7\u0131kar": 10
+  korku: 0
+  asker: 0
+  acceptText: "Sen bizi \xE7ulsuz mu sand\u0131n!"
+  declineText: "Y\xFCr\xFC! Para mara yok."

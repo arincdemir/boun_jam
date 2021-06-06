@@ -311,6 +311,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50c4bbc9307e1664993b681dd9b59919, type: 3}
+--- !u!114 &89890338 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5123504710859789973, guid: 50c4bbc9307e1664993b681dd9b59919,
+    type: 3}
+  m_PrefabInstance: {fileID: 89890337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &89890339 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 699727486846415455, guid: 50c4bbc9307e1664993b681dd9b59919,
@@ -529,6 +541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   advisorImage: {fileID: 1074527118}
   encounterText: {fileID: 1729529644}
+  acceptText: {fileID: 6394104830031514036}
+  declineText: {fileID: 1824617542}
   playerDatas:
     para: 50
     "\xE7\u0131kar": 50
@@ -538,11 +552,13 @@ MonoBehaviour:
   "\xE7\u0131karTexti": {fileID: 847328759}
   korkuTexti: {fileID: 877838047}
   askerTexti: {fileID: 288832719}
-  acceptText: {fileID: 6394104830031514036}
-  declineText: {fileID: 1824617542}
+  "g\xFCn": {fileID: 89890338}
+  newEncounterDelay: 1
   encounters:
-  - {fileID: 11400000, guid: 77b1163c90a24d14f8f2feba9bf23583, type: 2}
-  - {fileID: 11400000, guid: ae6b7e7595cbaa944828b08c6bebf58d, type: 2}
+  - {fileID: 11400000, guid: e5664b482c3c5b8498bf494b5fc58d58, type: 2}
+  - {fileID: 11400000, guid: 2d709a50062a9b54c90a48657657ba83, type: 2}
+  - {fileID: 11400000, guid: 3f154a89d69a6754590832093be0dd3a, type: 2}
+  - {fileID: 11400000, guid: 0341f33f02b6ff64fa9023a97be39442, type: 2}
 --- !u!4 &709634271
 Transform:
   m_ObjectHideFlags: 0
@@ -831,8 +847,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: -0}
-  m_SizeDelta: {x: 300, y: 600}
+  m_AnchoredPosition: {x: -441.3, y: 0}
+  m_SizeDelta: {x: 493.72223, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729529644
 MonoBehaviour:
@@ -855,7 +871,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
