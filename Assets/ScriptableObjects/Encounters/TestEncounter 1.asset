@@ -19,3 +19,5 @@ MonoBehaviour:
   "\xE7\u0131kar": -10
   korku: 0
   asker: 15
+  acceptText: "Al \xE7ocum"
+  declineText: 'Alma '

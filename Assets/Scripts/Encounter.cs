@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 [CreateAssetMenu(fileName = "NewEncounter", menuName = "ScriptableObjects/Encounter")]
 public class Encounter : ScriptableObject
 {
@@ -12,4 +13,6 @@ public class Encounter : ScriptableObject
     public int çıkar;
     public int korku;
     public int asker;
+    public string acceptText;
+    public string declineText;
 }

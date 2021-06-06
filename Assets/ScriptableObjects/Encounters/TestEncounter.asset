@@ -20,3 +20,5 @@ MonoBehaviour:
   "\xE7\u0131kar": -10
   korku: 10
   asker: 10
+  acceptText: "A\xE7 bakim"
+  declineText: "a\xE7ma"
