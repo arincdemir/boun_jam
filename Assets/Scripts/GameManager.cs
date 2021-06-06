@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
         int encounterIndex = Mathf.RoundToInt(Random.Range(-0.5f, encounters.Length - 0.5f));
         currentEncounter = encounters[encounterIndex];
         advisorImage.sprite = currentEncounter.image;
-        encounterText.text = currentEncounter.text;
+        encounterText.text = currentEncounter.advisorName+ " \n"+ currentEncounter.text;
         acceptText.text = currentEncounter.acceptText;
         declineText.text = currentEncounter.declineText;
     }
