@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
   m_Name: "Ar\u0131ncEncounter3"
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: cdaa3be5f2877b6499f5f4183e7ee2a8, type: 3}
+  image: {fileID: 21300000, guid: f263849a5d4bffc4e84077cdfd0534db, type: 3}
   advisorName: "\u0130stihbarat\xE7\u0131 Hasan Sabbah"
   text: "B\xFCy\xFCk liderim... Adana halk\u0131 ayaklanma \xE7\u0131karm\u0131\u015F.
     Havaya kur\u015Fun at\u0131yorlar onlar\u0131 korkutal\u0131m m\u0131?"

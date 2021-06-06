@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "H\xFCsoSoygun"
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 8e2cc2f617addeb439804e9c06393253, type: 3}
-  advisorName: recep
+  advisorName: "B\xFCy\xFCk Tefeci Recep"
   text: Banka soygununda 128 milayar bulduk patron!
   para: 25
   "\xE7\u0131kar": 15

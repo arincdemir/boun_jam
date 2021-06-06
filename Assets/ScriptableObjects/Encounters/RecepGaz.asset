@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RecepGaz
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 8e2cc2f617addeb439804e9c06393253, type: 3}
-  advisorName: Recep
+  advisorName: "B\xFCy\xFCk Tefeci Recep"
   text: "Eyy, Mastermind! Karadeniz'de 135 m3 do\u011Falgaz bulduk, ne yapal\u0131m?"
   para: -15
   "\xE7\u0131kar": -5

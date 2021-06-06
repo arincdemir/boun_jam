@@ -1022,6 +1022,21 @@ PrefabInstance:
       propertyPath: m_Text
       value: Kabul Et
       objectReference: {fileID: 0}
+    - target: {fileID: 6394104829316864987, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -495.28732
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394104829316864987, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394104829316864987, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -247.64
+      objectReference: {fileID: 0}
     - target: {fileID: 6394104829764950460, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1449,6 +1464,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1763914792}
     m_Modifications:
+    - target: {fileID: 6394104829316864987, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -490.52487
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394104829316864987, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6394104829316864987, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -245.26
+      objectReference: {fileID: 0}
     - target: {fileID: 6394104829764950460, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
