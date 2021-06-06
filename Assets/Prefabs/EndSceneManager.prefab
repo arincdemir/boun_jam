@@ -43,4 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be0e65450ee96ad45b2636fa8918d9c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitUntilMainMenu: 4
+  waitUntilMainMenu: 3
