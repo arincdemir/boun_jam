@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "SabbahBa\u015Fkan"
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: f263849a5d4bffc4e84077cdfd0534db, type: 3}
-  advisorName: Hasan
+  advisorName: "\u0130stihbarat\xE7\u0131 Hasan Sabbah"
   text: "\xDClkenin ba\u015Fkan\u0131 operasyonumuzu \xE7\xF6kertmek istiyor!"
   para: 0
   "\xE7\u0131kar": -20

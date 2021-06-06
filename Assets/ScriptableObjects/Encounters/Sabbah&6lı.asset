@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "Sabbah&6l\u0131"
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: f263849a5d4bffc4e84077cdfd0534db, type: 3}
-  advisorName: Hasan Sabbah
+  advisorName: "\u0130stihbarat\xE7\u0131 Hasan Sabbah"
   text: "Ajanlar\u0131m\u0131n s\xF6yledi\u011Fine g\xF6re Belal\u0131 alt\u0131l\u0131
     bizim silah deposuna bask\u0131n yapacakm\u0131\u015F"
   para: 0
