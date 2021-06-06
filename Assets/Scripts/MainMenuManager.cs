@@ -29,6 +29,13 @@ public class MainMenuManager : MonoBehaviour
  
     public void NewGame()
     {
+        PlayerPrefs.SetString("PlayType", "Yeni");
+        SceneManager.LoadScene("Game");
+    }
+
+    public void ContinueGame()
+    {
+        PlayerPrefs.SetString("PlayType", "Devam");
         SceneManager.LoadScene("Game");
     }
 }

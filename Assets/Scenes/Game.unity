@@ -520,7 +520,6 @@ GameObject:
   m_Component:
   - component: {fileID: 709634271}
   - component: {fileID: 709634270}
-  - component: {fileID: 709634272}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -542,7 +541,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   advisorImage: {fileID: 1074527118}
   encounterText: {fileID: 1729529644}
-  playerDatas: {fileID: 709634272}
+  playerDatas:
+    para: 50
+    "\xE7\u0131kar": 50
+    korku: 50
+    asker: 50
   paraTexti: {fileID: 280650508}
   "\xE7\u0131karTexti": {fileID: 847328759}
   korkuTexti: {fileID: 877838047}
@@ -565,23 +568,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &709634272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709634269}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c1dec6fa8a4b704a9abc7bd790f6d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  day: 0
-  para: 50
-  "\xE7\u0131kar": 50
-  korku: 50
-  asker: 50
 --- !u!224 &807178254 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6394104829764950461, guid: f542a59fd3b99cb4b991a7ac6d96ffb7,
