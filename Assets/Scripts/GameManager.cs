@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 {
     public Image advisorImage;
     public Text encounterText;
+    public Text acceptText;
+    public Text declineText;
     public PlayerDatas playerDatas;
     public Text paraTexti;
     public Text çıkarTexti;
@@ -58,6 +60,8 @@ public class GameManager : MonoBehaviour
         currentEncounter = encounters[encounterIndex];
         advisorImage.sprite = currentEncounter.image;
         encounterText.text = currentEncounter.text;
+        acceptText.text = currentEncounter.acceptText;
+        declineText.text = currentEncounter.declineText;
     }
 
     public void ProposalAccepted()
