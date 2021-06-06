@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78c5faabe5dfa241b6d998f27b73fb2, type: 3}
+  m_Name: "Ar\u0131ncEncounter4"
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 11ec3784dbd18a64ba1bf08029ae24e4, type: 3}
+  advisorName: "B\xFCy\xFCk Tefeci Recep"
+  text: "Reisim... Halk\u0131 madenlerde \xE7al\u0131\u015Ft\u0131r\u0131p g\xFCzel
+    para kazanabiliriz. Ne dersiniz?"
+  para: 10
+  "\xE7\u0131kar": -5
+  korku: 5
+  asker: -5
+  acceptText: "\xC7al\u0131\u015Fs\u0131n k\xF6leler!"
+  declineText: Gerek yok.
